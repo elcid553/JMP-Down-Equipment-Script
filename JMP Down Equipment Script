@@ -1,0 +1,538 @@
+names default to here(1);
+
+//DA01IOX 1
+dt1 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=DA01IOX&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool1 = "DA01IOX";
+dt1 << New Column("Tool_ID", character, nominal, set values({"DA01IOX"})); 
+// Fill to end of table
+dt1:Tool_ID[Index(
+	2,
+	N Row( dt1 )
+)] = tool1;
+
+//DA02IOX 2
+dt2 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=DA02IOX&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool2 = "DA02IOX";
+dt2 << New Column("Tool_ID", character, nominal, set values({"DA02IOX"})); 
+// Fill to end of table
+dt2:Tool_ID[Index(
+	2,
+	N Row( dt2 )
+)] = tool2;
+
+//DA03IOX 3
+dt3 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=DA03IOX&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool3 = "DA03IOX";
+dt3 << New Column("Tool_ID", character, nominal, set values({"DA03IOX"})); 
+// Fill to end of table
+dt3:Tool_ID[Index(
+	2,
+	N Row( dt3 )
+)] = tool3;
+
+//DA04IOX 4
+dt4 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=DA04IOX&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool4 = "DA04IOX";
+dt4 << New Column("Tool_ID", character, nominal, set values({"DA04IOX"})); 
+// Fill to end of table
+dt4:Tool_ID[Index(
+	2,
+	N Row( dt4 )
+)] = tool4;
+
+//DA05IOX 5
+dt5 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=DA05IOX&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool5 = "DA05IOX";
+dt5 << New Column("Tool_ID", character, nominal, set values({"DA05IOX"})); 
+// Fill to end of table
+dt5:Tool_ID[Index(
+	2,
+	N Row( dt5 )
+)] = tool5;
+
+//DA10HTMP 6
+dt6 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=DA10HTMP&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool6 = "DA10HTMP";
+dt6 << New Column("Tool_ID", character, nominal, set values({"DA10HTMP"})); 
+// Fill to end of table
+dt6:Tool_ID[Index(
+	2,
+	N Row( dt6 )
+)] = tool6;
+
+//DA11WOX 7
+dt7 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=DA11WOX&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool7 = "DA11WOX";
+dt7 << New Column("Tool_ID", character, nominal, set values({"DA11WOX"})); 
+// Fill to end of table
+dt7:Tool_ID[Index(
+	2,
+	N Row( dt7 )
+)] = tool7;
+
+//DA13WOX 8
+dt8 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=DA13WOX&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool8 = "DA13WOX";
+dt8 << New Column("Tool_ID", character, nominal, set values({"DA13WOX"})); 
+// Fill to end of table
+dt8:Tool_ID[Index(
+	2,
+	N Row( dt8 )
+)] = tool8;
+
+//DA14WOX 9
+dt9 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=DA14WOX&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool9 = "DA14WOX";
+dt9 << New Column("Tool_ID", character, nominal, set values({"DA14WOX"})); 
+// Fill to end of table
+dt9:Tool_ID[Index(
+	2,
+	N Row( dt9 )
+)] = tool9;
+
+//DA15WOX 10
+dt10 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=DA15WOX&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool10 = "DA15WOX";
+dt10 << New Column("Tool_ID", character, nominal, set values({"DA15WOX"})); 
+// Fill to end of table
+dt10:Tool_ID[Index(
+	2,
+	N Row( dt10 )
+)] = tool10;
+
+//DA22WOX 11
+dt11 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=DA22WOX&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool11 = "DA22WOX";
+dt11 << New Column("Tool_ID", character, nominal, set values({"DA22WOX"})); 
+// Fill to end of table
+dt11:Tool_ID[Index(
+	2,
+	N Row( dt11 )
+)] = tool11;
+
+//DA23WOX 12
+dt12 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=DA23WOX&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool12 = "DA23WOX";
+dt12 << New Column("Tool_ID", character, nominal, set values({"DA23WOX"})); 
+// Fill to end of table
+dt12:Tool_ID[Index(
+	2,
+	N Row( dt12 )
+)] = tool12;
+
+//DA29IOX 13
+dt13 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=DA29IOX&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool13 = "DA29IOX";
+dt13 << New Column("Tool_ID", character, nominal, set values({"DA29IOX"})); 
+// Fill to end of table
+dt13:Tool_ID[Index(
+	2,
+	N Row( dt13 )
+)] = tool13;
+
+//DH08IOX 14
+dt14 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=DH08IOX&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool14 = "DH08IOX";
+dt14 << New Column("Tool_ID", character, nominal, set values({"DH08IOX"})); 
+// Fill to end of table
+dt14:Tool_ID[Index(
+	2,
+	N Row( dt14 )
+)] = tool14;
+
+//DH22IOX 15
+dt15 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=DH22IOX&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool15 = "DH22IOX";
+dt15 << New Column("Tool_ID", character, nominal, set values({"DH22IOX"})); 
+// Fill to end of table
+dt15:Tool_ID[Index(
+	2,
+	N Row( dt15 )
+)] = tool15;
+
+//DH25IOX 16
+dt16 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=DH25IOX&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool16 = "DH25IOX";
+dt16 << New Column("Tool_ID", character, nominal, set values({"DH25IOX"})); 
+// Fill to end of table
+dt16:Tool_ID[Index(
+	2,
+	N Row( dt16 )
+)] = tool16;
+
+//DH27IOX 17
+dt17 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=DH27IOX&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool17 = "DH27IOX";
+dt17 << New Column("Tool_ID", character, nominal, set values({"DH27IOX"})); 
+// Fill to end of table
+dt17:Tool_ID[Index(
+	2,
+	N Row( dt17 )
+)] = tool17;
+
+//DH28IOX 18
+dt18 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=DH28IOX&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool18 = "DH28IOX";
+dt18 << New Column("Tool_ID", character, nominal, set values({"DH28IOX"})); 
+// Fill to end of table
+dt18:Tool_ID[Index(
+	2,
+	N Row( dt18 )
+)] = tool18;
+
+//DI04IOX 19
+dt19 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=DI04IOX&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool19 = "DI04IOX";
+dt19 << New Column("Tool_ID", character, nominal, set values({"DIO4IOX"})); 
+// Fill to end of table
+dt19:Tool_ID[Index(
+	2,
+	N Row( dt19 )
+)] = tool19;
+
+//DI09IOX 20
+dt20 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=DI09IOX&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool20 = "DI09IOX";
+dt20 << New Column("Tool_ID", character, nominal, set values({"DIO9IOX"})); 
+// Fill to end of table
+dt20:Tool_ID[Index(
+	2,
+	N Row( dt20 )
+)] = tool20;
+
+//DJ01IOX 21
+dt21 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=DJ01IOX&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool21 = "DJ01IOX";
+dt21 << New Column("Tool_ID", character, nominal, set values({"DJ01IOX"})); 
+// Fill to end of table
+dt21:Tool_ID[Index(
+	2,
+	N Row( dt21 )
+)] = tool21;
+
+//DJ02IOX 22
+dt22 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=DJ02IOX&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool22 = "DJ02IOX";
+dt22 << New Column("Tool_ID", character, nominal, set values({"DJ02IOX"})); 
+// Fill to end of table
+dt22:Tool_ID[Index(
+	2,
+	N Row( dt22 )
+)] = tool22;
+
+//UDFN05 23
+dt23 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=UDFN05&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool23 = "UDFN05";
+dt23 << New Column("Tool_ID", character, nominal, set values({"UDFN05"})); 
+// Fill to end of table
+dt23:Tool_ID[Index(
+	2,
+	N Row( dt23 )
+)] = tool23;
+
+//UDFN06 24
+dt24 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=UDFN06&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool24 = "UDFN06";
+dt24 << New Column("Tool_ID", character, nominal, set values({"UDFN06"})); 
+// Fill to end of table
+dt24:Tool_ID[Index(
+	2,
+	N Row( dt24 )
+)] = tool24;
+
+//DA26GTE 25
+dt25 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=DA26GTE&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool25 = "DA26GTE";
+dt25 << New Column("Tool_ID", character, nominal, set values({"DA26GTE"})); 
+// Fill to end of table
+dt25:Tool_ID[Index(
+	2,
+	N Row( dt25 )
+)] = tool25;
+
+//DB03GTE 26
+dt26 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=DB03GTE&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool26 = "DB03GTE";
+dt26 << New Column("Tool_ID", character, nominal, set values({"DB03GTE"})); 
+// Fill to end of table
+dt26:Tool_ID[Index(
+	2,
+	N Row( dt26 )
+)] = tool26;
+
+//DB04GTE 27
+dt27 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=DB04GTE&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool27 = "DB04GTE";
+dt27 << New Column("Tool_ID", character, nominal, set values({"DB04GTE"})); 
+// Fill to end of table
+dt27:Tool_ID[Index(
+	2,
+	N Row( dt27 )
+)] = tool27;
+
+//DB05GTE 28
+dt28 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=DB05GTE&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool28 = "DB05GTE";
+dt28 << New Column("Tool_ID", character, nominal, set values({"DB05GTE"})); 
+// Fill to end of table
+dt28:Tool_ID[Index(
+	2,
+	N Row( dt28 )
+)] = tool28;
+
+//DB06GTE 29
+dt29 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=DB06GTE&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool29 = "DB06GTE";
+dt29 << New Column("Tool_ID", character, nominal, set values({"DB06GTE"})); 
+// Fill to end of table
+dt29:Tool_ID[Index(
+	2,
+	N Row( dt29 )
+)] = tool29;
+
+//DB07GTE 30
+dt30 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=DB07GTE&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool30 = "DB07GTE";
+dt30 << New Column("Tool_ID", character, nominal, set values({"DB07GTE"})); 
+// Fill to end of table
+dt30:Tool_ID[Index(
+	2,
+	N Row( dt30 )
+)] = tool30;
+
+//DB32GTE 31
+dt31 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=DB32GTE&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool31 = "DB32GTE";
+dt31 << New Column("Tool_ID", character, nominal, set values({"DB32GTE"})); 
+// Fill to end of table
+dt31:Tool_ID[Index(
+	2,
+	N Row( dt31 )
+)] = tool31;
+
+//DB33GTE 32
+dt32 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=DB33GTE&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool32 = "DB33GTE";
+dt32 << New Column("Tool_ID", character, nominal, set values({"DB33GTE"})); 
+// Fill to end of table
+dt32:Tool_ID[Index(
+	2,
+	N Row( dt32 )
+)] = tool32;
+
+//DB34GTE 33
+dt33 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=DB34GTE&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool33 = "DB34GTE";
+dt33 << New Column("Tool_ID", character, nominal, set values({"DB34GTE"})); 
+// Fill to end of table
+dt33:Tool_ID[Index(
+	2,
+	N Row( dt33 )
+)] = tool33;
+
+//DB35GTE 34
+dt34 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=DB35GTE&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool34 = "DB35GTE";
+dt34 << New Column("Tool_ID", character, nominal, set values({"DB35GTE"})); 
+// Fill to end of table
+dt34:Tool_ID[Index(
+	2,
+	N Row( dt34 )
+)] = tool34;
+
+//DB36GTE 35
+dt35 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=DB36GTE&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool35 = "DB36GTE";
+dt35 << New Column("Tool_ID", character, nominal, set values({"DB36GTE"})); 
+// Fill to end of table
+dt35:Tool_ID[Index(
+	2,
+	N Row( dt35 )
+)] = tool35;
+
+//UDFN07 36
+dt36 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=UDFN07&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool36 = "UDFN07";
+dt36 << New Column("Tool_ID", character, nominal, set values({"UDFN07"})); 
+// Fill to end of table
+dt36:Tool_ID[Index(
+	2,
+	N Row( dt36 )
+)] = tool36;
+
+//YZ01ANTX 37
+dt37 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=YZ01ANTX&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool37 = "YZ01ANTX";
+dt37 << New Column("Tool_ID", character, nominal, set values({"YZ01ANTX"})); 
+// Fill to end of table
+dt37:Tool_ID[Index(
+	2,
+	N Row( dt37 )
+)] = tool37;
+
+//YZ02ANTX 38
+dt38 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=YZ02ANTX&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool38 = "YZ02ANTX";
+dt38 << New Column("Tool_ID", character, nominal, set values({"YZ02ANTX"})); 
+// Fill to end of table
+dt38:Tool_ID[Index(
+	2,
+	N Row( dt38 )
+)] = tool38;
+
+//Metro tool UDFM11
+dt39 = Open("http://eds-austin.am.freescale.net/cgi-bin/promis/bin/quickaem.cgi?fab=m13&eqpid=UDFM11&days=3&eqpsub=Show", HTML table(1));
+//Add column for tool id
+tool39 = "UDFM11";
+dt39 << New Column("Tool_ID", character, nominal, set values({"UDFM11"})); 
+// Fill to end of table
+dt39:Tool_ID[Index(
+	2,
+	N Row( dt39 )
+)] = tool39;
+
+
+//concat tables for each tool
+dt_down = dt1 << Concatenate(
+	dt2,
+	dt3,
+	dt4,
+	dt5,
+	dt6,
+	dt7,
+	dt8,
+	dt9,
+	dt10,
+	dt11,
+	dt12,
+	dt13,
+	dt14,
+	dt15,
+	dt16,
+	dt17,
+	dt18,
+	dt19,
+	dt20,
+	dt21,
+	dt22,
+	dt23,
+	dt24,
+	dt25,
+	dt26,
+	dt27,
+	dt28,
+	dt29,
+	dt30,
+	dt31,
+	dt32,
+	dt33,
+	dt34,
+	dt35,
+	dt36,
+	dt37,
+	dt38,
+	dt39,
+	Output Table( "Down Tools" )
+);
+
+//Close original, un-concatenated tables
+close(dt1);
+close(dt2);
+close(dt3);
+close(dt4);
+close(dt5);
+close(dt6);
+close(dt7);
+close(dt8);
+close(dt9);
+close(dt10);
+close(dt11);
+close(dt12);
+close(dt13);
+close(dt14);
+close(dt15);
+close(dt16);
+close(dt17);
+close(dt18);
+close(dt19);
+close(dt20);
+close(dt21);
+close(dt22);
+close(dt23);
+close(dt24);
+close(dt25);
+close(dt26);
+close(dt27);
+close(dt28);
+close(dt29);
+close(dt30);
+close(dt31);
+close(dt32);
+close(dt33);
+close(dt34);
+close(dt35);
+close(dt36);
+close(dt37);
+close(dt38);
+close(dt39);
+
+
+//Number rows by tool ID
+dt_down << New Column("Number", numeric, character, formula(Col Cumulative Sum(1, :Tool_ID)));
+//Filter by row number to get the 3 most likely comments
+dt_down << Select Where(:Number > 3);
+dt_down << delete rows();
+
+col_run = dt_down << Get Rows Where(:VG1 == "RUN");
+col_idle = dt_down << Get Rows Where(:VG1 == "IDLE");
+col_umaint = dt_down << Get Rows Where(:VG1 == "UMAINT");
+col_eng = dt_down << Get Rows Where(:VG1 == "ENG");
+col_smaint = dt_down << Get Rows Where(:VG1 == "SMAINT");
+col_qual = dt_down << Get Rows Where(:VG1 == "QUAL");
+
+For Each Row(
+	If(:VG1 == "RUN",
+	   :Tool_ID << Color Cells( "green", col_run );
+	   :Tool_ID << Color Cells( "green", col_idle );
+	   :Tool_ID << Color Cells( "red", col_umaint );
+	   :Tool_ID << Color Cells( "blue", col_eng );
+	   :Tool_ID << Color Cells( "red", col_smaint );
+	   :Tool_ID << Color Cells( "yellow", col_qual )));
